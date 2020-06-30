@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import gallery from './gallery'
 import VueScroller from 'vue-scroller'
-import './scss/main.scss'
+
 Vue.use(VueScroller)
 Vue.use(gallery, {
   swipeThreshold: 100,
